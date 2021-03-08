@@ -61,7 +61,7 @@ header nav ul li a:hover {
     font-size: 12px;
 }
 .about-me {
-    color: #444444;
+    color: var(--primary-color);
     text-align: center;
 }
 .about-me img {
@@ -94,7 +94,6 @@ section {
     font-style: italic;
     font-size: 55px;
     color: var(--primary-color);
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .section-title {
     font-size: 48px;
@@ -126,6 +125,9 @@ section {
     width: 255px;
     height: 375px;
     columns: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .project:hover {
     position:relative;
