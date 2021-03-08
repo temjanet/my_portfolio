@@ -10,6 +10,6 @@
 * More organized HTML and CSS coding
 
 ## Screenshot
-![](
+![](assets/images/Screenshot.jpg)
 
 By: Janet Tem, University of Toronto Coding Bootcamp
