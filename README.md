@@ -1,9 +1,15 @@
 # My Portfolio
 
-## About Me
+## Content
+* About Me
+* My Projects
+* Contact Information
 
-## Projects
+## What I Want To Work On
+* CSS to properly align photos and text
+* More organized HTML and CSS coding
 
-## Contact Information
+## Screenshot
+![](
 
 By: Janet Tem, University of Toronto Coding Bootcamp
