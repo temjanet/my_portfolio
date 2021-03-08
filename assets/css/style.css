@@ -1,3 +1,4 @@
+/* colors that are used repeatedly */
 :root {
     --primary-color: #444444;
     --secondary-color: #ffffff;
@@ -8,10 +9,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* body style */
 body {
     color: var(--tertiary-color);
     font-family: Georgia, 'Times New Roman', Times, serif;
-}  
+} 
+
+/* header style */
 header {
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
@@ -60,18 +65,8 @@ header nav ul li a:hover {
     opacity: 0.5;
     font-size: 12px;
 }
-.about-me {
-    color: var(--primary-color);
-    text-align: center;
-}
-.about-me img {
-    border-radius: 45px;
-    height: 255px;
-    width: 185px;
-}
-section {
-    padding: 60px;
-}
+
+/* hero style/img */
 .hero {
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
@@ -95,6 +90,20 @@ section {
     font-size: 55px;
     color: var(--primary-color);
 }
+
+/* about me style/apart of the main content */
+.about-me {
+    color: var(--primary-color);
+    text-align: center;
+}
+.about-me img {
+    border-radius: 45px;
+    height: 255px;
+    width: 185px;
+}
+section {
+    padding: 60px;
+}
 .section-title {
     font-size: 48px;
     color: var(--primary-color);
@@ -104,12 +113,6 @@ section {
     margin: 0 auto 35px auto;
     width: 50%;
 } 
-.primary-border {
-    border-color: var(--tertiary-color);
-}  
-.secondary-border {
-    border-color: var(--primary-color);
-}
 .intro p {
     line-height: 1.7;
     color: var(--tertiary-color);
@@ -118,6 +121,8 @@ section {
     margin: 0 auto;
     text-align: center;
 }
+
+/* projects style */
 .projects { 
     background: var(--tertiary-color);
 }
@@ -138,6 +143,8 @@ section {
     display: block;
     z-index: 999;
 }
+
+/* contact style */ 
 .contact {
     background: var(--secondary-color);
 }
@@ -160,6 +167,8 @@ section {
 .contact-info a {
     color: var(--tertiary-color);
 }
+
+/* footer style */
 footer {
     background: var(--primary-color);
     width: 100%;
@@ -180,6 +189,14 @@ footer div {
 footer a {
     color: var(--secondary-color);
 }
+
+/* div class styles */
+.primary-border {
+    border-color: var(--tertiary-color);
+}  
+.secondary-border {
+    border-color: var(--primary-color);
+}
 .text-left {
     text-align: left;
 }  
@@ -189,6 +206,8 @@ footer a {
 .flex-row {
     display: flex;
 }
+
+/* media query for multi device usage */
 @media screen and (max-width: 980px) {
     header {
         padding-bottom: 0;
